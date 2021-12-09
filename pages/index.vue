@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>Hellenic Navy unofficial website</h1>
+    <p class="lead fst-italic">-"Μέγα τὸ τῆς θαλάσσης κράτος"</p>
     <hr />
     <iframe
       width="100%"
@@ -15,5 +16,10 @@
 </template>
 
 <script>
-export default {};
+export default {
+  loading: {
+    color: "blue",
+    height: "5px",
+  },
+};
 </script>

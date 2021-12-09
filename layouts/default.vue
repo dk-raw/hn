@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar brand="HN" />
+    <Navbar brand="Hellenic Navy" />
     <Nuxt />
     <br />
     <br />
