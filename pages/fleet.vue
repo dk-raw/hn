@@ -2,7 +2,9 @@
   <div class="container">
     <h1>HN Fleet</h1>
     <p class="lead">
-      frigates, corvettes, fast-attack missle boats, gunboats and submarines
+      frigates, corvettes, fast-attack guided missle boats, gunboats,
+      minehunter, minesweepers, landing craft, support vessels, UAVs,
+      Anti-submarine vessels and submarines
     </p>
     <hr />
     <div
@@ -43,6 +45,12 @@ export default {
           tags: [{ type: "Frigate" }],
         },
         {
+          header: "Naval Group FDI HN",
+          description: "",
+          imageUrl: "fdi.jpg",
+          tags: [{ type: "Frigate" }],
+        },
+        {
           header: "Standar Batch III 'Elli'",
           description: "",
           imageUrl: "standard-batch-iii.jpg",
@@ -52,7 +60,19 @@ export default {
           header: "Roussen class 'Super Vita'",
           description: "",
           imageUrl: "super-vita.jpg",
-          tags: [{ type: "Fast Attack Missle Boat" }],
+          tags: [{ type: "Fast Attack Guided Missle Boat" }],
+        },
+        {
+          header: "'La Combattante' IIIA",
+          description: "",
+          imageUrl: "combattante-iiia.jpg",
+          tags: [{ type: "Fast Attack Guided Missle Boat" }],
+        },
+        {
+          header: "'La Combattante' IIIB",
+          description: "",
+          imageUrl: "combattante-iiib.jpg",
+          tags: [{ type: "Fast Attack Guided Missle Boat" }],
         },
         {
           header: "Osprey HSY 56a 'Fighter'",
@@ -61,10 +81,16 @@ export default {
           tags: [{ type: "Gunboat" }],
         },
         {
-          header: "Naval Group FDI HN",
+          header: "Osprey 55",
           description: "",
-          imageUrl: "fdi.jpg",
-          tags: [{ type: "Frigate" }],
+          imageUrl: "osprey-55.jpg",
+          tags: [{ type: "Gunboat" }],
+        },
+        {
+          header: "'La Combattante' IIA",
+          description: "",
+          imageUrl: "combattante-iia.jpg",
+          tags: [{ type: "Gunboat" }],
         },
         {
           header: "Naval Group Gowind",
@@ -73,16 +99,10 @@ export default {
           tags: [{ type: "Corvette" }, { type: "TBA" }],
         },
         {
-          header: "Fincantieri Multirole Corvette",
+          header: "Damen Group Sigma",
           description: "",
-          imageUrl: "fincantieri.jpg",
+          imageUrl: "sigma.jpg",
           tags: [{ type: "Corvette" }, { type: "TBA" }],
-        },
-        {
-          header: "'Alreigh Burke'",
-          description: "",
-          imageUrl: "alreigh-burke.jpg",
-          tags: [{ type: "Guided Missle Destroyer" }, { type: "TBA" }],
         },
         {
           header: "Hellenic Future Friagte 'HF2'",
@@ -95,6 +115,63 @@ export default {
           description: "",
           imageUrl: "type-214.jpg",
           tags: [{ type: "General Purpose Submarine" }],
+        },
+        {
+          header: "Naval Replenishment 'Etna'",
+          description: "",
+          imageUrl: "etna.jpg",
+          tags: [
+            { type: "Naval Replenishment" },
+            { type: "Logisitcs Support" },
+          ],
+        },
+        {
+          header: "'Jason' LST",
+          description: "",
+          imageUrl: "json.jpg",
+          tags: [{ type: "Tank Landing Ship" }],
+        },
+        {
+          header: "LCU 520",
+          description: "",
+          imageUrl: "lcu-520.jpg",
+          tags: [{ type: "Landing Ship" }],
+        },
+        {
+          header: "Osprey",
+          description: "",
+          imageUrl: "osprey.jpg",
+          tags: [{ type: "Minehunter" }],
+        },
+        {
+          header: "'Hunt'",
+          description: "",
+          imageUrl: "hunt.jpg",
+          tags: [{ type: "Mine Countermeasure" }],
+        },
+        {
+          header: "'Zubr'",
+          description: "",
+          imageUrl: "zubr.jpg",
+          tags: [{ type: "Landing Craft" }],
+        },
+        {
+          header: "Lockheed P-3B Orion",
+          description: "",
+          imageUrl: "p-3.jpg",
+          tags: [{ type: "Anti-submarine" }],
+        },
+        {
+          header: "Sikorsky S-70B 'Aegean Hawk'",
+          description: "",
+          imageUrl: "s-70b.jpg",
+          tags: [{ type: "Anti-submarine" }],
+        },
+        {
+          header: "A900",
+          description: "",
+          imageUrl: "a900.jpg",
+          tags: [{ type: "UAV" }, { type: "Surveillance" }],
         },
       ],
     };
