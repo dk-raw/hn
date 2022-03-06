@@ -13,10 +13,10 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbar"
+        data-mdb-toggle="collapse"
+        data-mdb-target="#navbar"
       >
-        <span class="navbar-toggler-icon"></span>
+        <i class="bi bi-list"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav">

@@ -2,9 +2,9 @@
   <div class="container">
     <h1>HN Fleet</h1>
     <p class="lead">
-      frigates, corvettes, fast-attack guided missle boats, gunboats,
-      minehunter, minesweepers, landing craft, support vessels, UAVs,
-      Anti-submarine vessels and submarines
+      frigates, corvettes, guided missle attack craft, gunboats, minehunters,
+      minesweepers, landing craft, support vessels, UAVs, Anti-submarine vessels
+      and submarines
     </p>
     <hr />
     <div
@@ -23,7 +23,7 @@
       <div class="col" v-for="vessel in fleet" :key="vessel.id">
         <Card
           :header="vessel.header"
-          :description="vessel.description"
+          :characteristics="vessel.characteristics"
           :imageUrl="vessel.imageUrl"
           :tags="vessel.tags"
         />
@@ -40,85 +40,193 @@ export default {
       fleet: [
         {
           header: "Meko 200HN 'Hydra'",
-          description: "Friagte",
+          characteristics: [
+            { type: "Length", value: "117.5m" },
+            { type: "Displacement", value: "4,000 tons" },
+            { type: "Speed", value: "31 knots" },
+            {
+              type: "Armament",
+              value:
+                '5" Mk 45, 2x Mk 15 Phalanx CIWS, 2x Mk 141 Harpoon, 2x Mk 48 VLS, 2x Mk 32 SVTT',
+            },
+          ],
           imageUrl: "meko-200.jpg",
           tags: [{ type: "Frigate" }],
         },
         {
           header: "Naval Group FDI HN",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "122m" },
+            { type: "Displacement", value: "4,460 tons" },
+            { type: "Speed", value: "27 knots" },
+            {
+              type: "Armament",
+              value:
+                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 4x Sylver A50 8-cell VLS, Mk 49 CIWS, 2x EuroTorp MU90",
+            },
+          ],
           imageUrl: "fdi.jpg",
           tags: [{ type: "Frigate" }],
         },
         {
+          header: "Naval Group Gowind 2500HN",
+          characteristics: [
+            { type: "Length", value: "85m" },
+            { type: "Displacement", value: "2,500 tons" },
+            { type: "Speed", value: "28 knots" },
+            {
+              type: "Armament",
+              value:
+                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 16x Sylver A50 VLS, 2x EuroTorp MU90",
+            },
+          ],
+          imageUrl: "gowind.jpg",
+          tags: [{ type: "Corvette" }, { type: "TBA" }],
+        },
+        {
+          header: "Lockheed Martin MMSC 'HF2'",
+          characteristics: [
+            { type: "Length", value: "118m" },
+            { type: "Displacement", value: "3,600 tons" },
+            { type: "Speed", value: "47 knots" },
+            {
+              type: "Armament",
+              value:
+                "Mk 110 57mm, SeaRAM CIWS, 8x Mk 141 Harpoon blk 2, 1x Mk 41 VLS, 2x M621 20mm, 2x Mk 32 SVTT",
+            },
+          ],
+          imageUrl: "hf2.jpg",
+          tags: [{ type: "Frigate" }, { type: "TBA" }],
+        },
+        {
           header: "Standar Batch III 'Elli'",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "130m" },
+            { type: "Displacement", value: "3,800 tons" },
+            { type: "Speed", value: "30 knots" },
+            {
+              type: "Armament",
+              value:
+                "2x OTO-Melara Compatto 76mm, 2x Mk 15 Phalanx CIWS, 4x Mk 141 Harpoon blk 2, Mk 25 Sea Sparrow, 2x Mk 32 SVTT",
+            },
+          ],
           imageUrl: "standard-batch-iii.jpg",
           tags: [{ type: "Frigate" }],
         },
         {
           header: "Roussen class 'Super Vita'",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "62m" },
+            { type: "Displacement", value: "670 tons" },
+            { type: "Speed", value: "35 knots" },
+            {
+              type: "Armament",
+              value:
+                "Oto Melara 76mm Super Rapid, 8x MM40 Exocet blk 3, Mk 49 CIWS, 2x Oto Melara 30mm",
+            },
+          ],
           imageUrl: "super-vita.jpg",
           tags: [{ type: "Fast Attack Guided Missle Boat" }],
         },
         {
           header: "'La Combattante' IIIA",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "56m" },
+            { type: "Displacement", value: "425 tons" },
+            { type: "Speed", value: "36.5 knots" },
+            {
+              type: "Armament",
+              value:
+                "2x Oto Melara 76mm, 4x Mk 141 Harpoon blk 2, 4x Emerson Electric 30mm",
+            },
+          ],
           imageUrl: "combattante-iiia.jpg",
           tags: [{ type: "Fast Attack Guided Missle Boat" }],
         },
         {
           header: "'La Combattante' IIIB",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "56m" },
+            { type: "Displacement", value: "425 tons" },
+            { type: "Speed", value: "36.5 knots" },
+            {
+              type: "Armament",
+              value:
+                "2x Oto Melara 76mm, 6x Mk 2 Penguin, 2x Emerson Electric 30mm",
+            },
+          ],
           imageUrl: "combattante-iiib.jpg",
           tags: [{ type: "Fast Attack Guided Missle Boat" }],
         },
         {
           header: "Osprey HSY 56a 'Fighter'",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "56m" },
+            { type: "Displacement", value: "575 tons" },
+            { type: "Speed", value: "23 knots" },
+            {
+              type: "Armament",
+              value:
+                "2x Oto Melara 76mm, 1x Bofors 40/70mm, 2x Rheinmetall Rh202 20mm",
+            },
+          ],
           imageUrl: "osprey-hsy-56a.jpg",
           tags: [{ type: "Gunboat" }],
         },
         {
           header: "Osprey 55",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "56m" },
+            { type: "Displacement", value: "575 tons" },
+            { type: "Speed", value: "23 knots" },
+            {
+              type: "Armament",
+              value: "2x Oto Melara 76mm, Bofors 40mm",
+            },
+          ],
           imageUrl: "osprey-55.jpg",
           tags: [{ type: "Gunboat" }],
         },
         {
           header: "'La Combattante' IIA",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "47m" },
+            { type: "Displacement", value: "265 tons" },
+            { type: "Speed", value: "36 knots" },
+            {
+              type: "Armament",
+              value:
+                "Oto Melara 76mm, Bofors 57mm, Bofors 40/70mm, 4x Mk 141 Harpoon blk 2, 4x MM40 Exocet blk 3",
+            },
+          ],
           imageUrl: "combattante-iia.jpg",
           tags: [{ type: "Gunboat" }],
         },
         {
-          header: "Naval Group Gowind",
-          description: "",
-          imageUrl: "gowind.jpg",
-          tags: [{ type: "Corvette" }, { type: "TBA" }],
-        },
-        {
-          header: "Damen Group Sigma",
-          description: "",
-          imageUrl: "sigma.jpg",
-          tags: [{ type: "Corvette" }, { type: "TBA" }],
-        },
-        {
-          header: "Hellenic Future Friagte 'HF2'",
-          description: "",
-          imageUrl: "hf2.jpg",
-          tags: [{ type: "Frigate" }, { type: "TBA" }],
-        },
-        {
           header: "Type 214 'Papanikolis'",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "65m" },
+            { type: "Displacement", value: "1,830 tons" },
+            { type: "Speed", value: "20 knots" },
+            {
+              type: "Armament",
+              value: "8x 533mm torpedo tubes",
+            },
+          ],
           imageUrl: "type-214.jpg",
           tags: [{ type: "General Purpose Submarine" }],
         },
         {
-          header: "Naval Replenishment 'Etna'",
-          description: "",
+          header: "Etna",
+          characteristics: [
+            { type: "Length", value: "146m" },
+            { type: "Displacement", value: "13,188 tons" },
+            { type: "Speed", value: "21 knots" },
+            {
+              type: "Armament",
+              value: "Mk 15 Phalanx CIWS, 4x Rheinmetall 20mm",
+            },
+          ],
           imageUrl: "etna.jpg",
           tags: [
             { type: "Naval Replenishment" },
@@ -126,50 +234,92 @@ export default {
           ],
         },
         {
-          header: "'Jason' LST",
-          description: "",
+          header: "LST 'Jason'",
+          characteristics: [
+            { type: "Length", value: "116m" },
+            { type: "Displacement", value: "4,470 tons" },
+            { type: "Speed", value: "16 knots" },
+            {
+              type: "Armament",
+              value:
+                "Oto Melara 76mm, 2x Bofors 40mm, 2x twin Rheinmetall Rh202 20mm",
+            },
+          ],
           imageUrl: "json.jpg",
           tags: [{ type: "Tank Landing Ship" }],
         },
         {
-          header: "LCU 520",
-          description: "",
-          imageUrl: "lcu-520.jpg",
-          tags: [{ type: "Landing Ship" }],
-        },
-        {
           header: "Osprey",
-          description: "",
+          characteristics: [
+            { type: "Length", value: "57m" },
+            { type: "Displacement", value: "895 tons" },
+            { type: "Speed", value: "12 knots" },
+            {
+              type: "Armament",
+              value: "Stinger SAM",
+            },
+          ],
           imageUrl: "osprey.jpg",
           tags: [{ type: "Minehunter" }],
         },
         {
-          header: "'Hunt'",
-          description: "",
+          header: "Hunt",
+          characteristics: [
+            { type: "Length", value: "60m" },
+            { type: "Displacement", value: "740 tons" },
+            { type: "Speed", value: "17 knots" },
+            {
+              type: "Armament",
+              value: "DS30M mk2 30mm",
+            },
+          ],
           imageUrl: "hunt.jpg",
-          tags: [{ type: "Mine Countermeasure" }],
+          tags: [{ type: "Mine Countermeasure Vessel" }],
         },
         {
-          header: "'Zubr'",
-          description: "",
+          header: "LCAC 'Zubr'",
+          characteristics: [
+            { type: "Length", value: "57m" },
+            { type: "Displacement", value: "555 tons" },
+            { type: "Speed", value: "63 knots" },
+            {
+              type: "Armament",
+              value: "2x AK-630 CIWS, 2x 140mm Ogon launchers, 4x Strela-3 SAM",
+            },
+          ],
           imageUrl: "zubr.jpg",
           tags: [{ type: "Landing Craft" }],
         },
         {
-          header: "Lockheed P-3B Orion",
-          description: "",
+          header: "Lockheed P-3B 'Orion'",
+          characteristics: [
+            { type: "Length", value: "35m" },
+            { type: "Speed", value: "411 knots" },
+            { type: "Service ceiling", value: "28,300 ft" },
+            {
+              type: "Armament",
+              value: "8x Mk 46, 7x MU-90, Active/Passive Sonobuoys",
+            },
+          ],
           imageUrl: "p-3.jpg",
           tags: [{ type: "Anti-submarine" }],
         },
         {
-          header: "Sikorsky S-70B 'Aegean Hawk'",
-          description: "",
+          header: "Sikorsky SH-70B6/MH-60R Aegean Hawk",
+          characteristics: [
+            { type: "Speed", value: "146 knots" },
+            { type: "Service ceiling", value: "12,000 ft" },
+            {
+              type: "Armament",
+              value: "2x Mk 46, 4x AGM-114",
+            },
+          ],
           imageUrl: "s-70b.jpg",
           tags: [{ type: "Anti-submarine" }],
         },
         {
-          header: "A900",
-          description: "",
+          header: "Alpha A900 UAV",
+          characteristics: [],
           imageUrl: "a900.jpg",
           tags: [{ type: "UAV" }, { type: "Surveillance" }],
         },
