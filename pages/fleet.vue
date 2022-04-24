@@ -62,7 +62,7 @@ export default {
             {
               type: "Armament",
               value:
-                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 4x Sylver A50 8-cell VLS, Mk 49 CIWS, 2x EuroTorp MU90",
+                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 4x Sylver A50 8-cell VLS, Mk 49 RAM blk 2, 2x EuroTorp MU90, 2x Narwhal 20mm RWS",
             },
           ],
           imageUrl: "fdi.jpg",
@@ -77,7 +77,7 @@ export default {
             {
               type: "Armament",
               value:
-                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 16x Sylver A50 VLS, 2x EuroTorp MU90",
+                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 16x Sylver A50 VLS, 2x EuroTorp MU90, 2x Narwhal 20mm RWS",
             },
           ],
           imageUrl: "gowind.jpg",
@@ -107,7 +107,7 @@ export default {
             {
               type: "Armament",
               value:
-                "2x OTO-Melara Compatto 76mm, 2x Mk 15 Phalanx CIWS, 4x Mk 141 Harpoon blk 2, Mk 25 Sea Sparrow, 2x Mk 32 SVTT",
+                "2x OTO-Melara Compatto 76mm, 2x Mk 15 Phalanx CIWS, 4x Mk 141 Harpoon blk 2, Mk 25 w/ 8x Sea Sparrow, 2x Mk 32 SVTT",
             },
           ],
           imageUrl: "standard-batch-iii.jpg",
@@ -122,7 +122,7 @@ export default {
             {
               type: "Armament",
               value:
-                "Oto Melara 76mm Super Rapid, 8x MM40 Exocet blk 3, Mk 49 CIWS, 2x Oto Melara 30mm",
+                "Oto Melara 76mm Super Rapid, 8x MM40 Exocet blk 3, Mk 49 RAM blk 2, 2x Oto Melara 30mm",
             },
           ],
           imageUrl: "super-vita.jpg",
@@ -167,7 +167,7 @@ export default {
             {
               type: "Armament",
               value:
-                "2x Oto Melara 76mm, 1x Bofors 40/70mm, 2x Rheinmetall Rh202 20mm",
+                "2x Oto Melara 76mm, 1x Bofors 40/70mm, 2x Rheinmetall Rh202 20mm, 2x SPIKE NLOS ATGMs",
             },
           ],
           imageUrl: "osprey-hsy-56a.jpg",
@@ -210,7 +210,7 @@ export default {
             { type: "Speed", value: "20 knots" },
             {
               type: "Armament",
-              value: "8x 533mm torpedo tubes",
+              value: "8x 533mm SeaHake mod 4",
             },
           ],
           imageUrl: "type-214.jpg",

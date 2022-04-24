@@ -10,10 +10,13 @@
     </a>
     <div class="card-body pb-0">
       <h4 class="card-title mb-0">{{ header }}</h4>
-      <h5 class="mt-2 mb-0 font-weight-bold">Specs</h5>
-      <ul class="p-0 mb-0" style="list-style-position: inside; list-style: none">
+      <h5 class="mt-2 mb-0 fw-bold">Specs</h5>
+      <ul
+        class="p-0 mb-0"
+        style="list-style-position: inside; list-style: none"
+      >
         <li v-for="characteristic in characteristics" :key="characteristic.id">
-          <span class="font-weight-bold">{{ characteristic.type }}:</span>
+          <span class="fw-bold">{{ characteristic.type }}:</span>
           <span>{{ characteristic.value }}</span>
         </li>
       </ul>

@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <h1>Hellenic Navy unofficial website</h1>
-    <p class="lead fst-italic">-"Μέγα τὸ τῆς θαλάσσης κράτος"</p>
+    <p class="lead fst-italic mb-0">-Μέγα τὸ τῆς θαλάσσης κράτος</p>
+    <small>"Great is the might of the sea"</small>
     <hr />
     <iframe
       width="100%"
