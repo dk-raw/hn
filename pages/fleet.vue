@@ -49,6 +49,11 @@ export default {
               value:
                 '5" Mk 45, 2x Mk 15 Phalanx CIWS, 2x Mk 141 Harpoon, 2x Mk 48 VLS, 2x Mk 32 SVTT',
             },
+            {
+              type: "Sensors",
+              value:
+                '5" Mk 45, 2x Mk 15 Phalanx CIWS, 2x Mk 141 Harpoon, 2x Mk 48 VLS, 2x Mk 32 SVTT',
+            },
           ],
           imageUrl: "meko-200.jpg",
           tags: [{ type: "Frigate" }],
@@ -137,7 +142,7 @@ export default {
             {
               type: "Armament",
               value:
-                "2x Oto Melara 76mm, 4x Mk 141 Harpoon blk 2, 4x Emerson Electric 30mm",
+                "2x Oto Melara 76mm, 4x Mk 141 Harpoon blk 2, 4x Emerson Electric 30mm, 2x SST-4 torpedos",
             },
           ],
           imageUrl: "combattante-iiia.jpg",
@@ -152,7 +157,7 @@ export default {
             {
               type: "Armament",
               value:
-                "2x Oto Melara 76mm, 6x Mk 2 Penguin, 2x Emerson Electric 30mm",
+                "2x Oto Melara 76mm, 4x Mk 141 Harpoon blk 2, 2x Emerson Electric 30mm, 2x SST-4 torpedos",
             },
           ],
           imageUrl: "combattante-iiib.jpg",
@@ -196,7 +201,7 @@ export default {
             {
               type: "Armament",
               value:
-                "Oto Melara 76mm, Bofors 57mm, Bofors 40/70mm, 4x Mk 141 Harpoon blk 2, 4x MM40 Exocet blk 3",
+                "Oto Melara 76mm, Bofors 57mm, Bofors 40/70mm, 4x Mk 141 Harpoon blk 2, 20x depth charges",
             },
           ],
           imageUrl: "combattante-iia.jpg",
