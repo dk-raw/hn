@@ -56,7 +56,7 @@ export default {
             },
           ],
           imageUrl: "meko-200.jpg",
-          tags: [{ type: "Frigate" }],
+          tags: [{ type: "Frigate" }, { type: "Pending MLU" }],
         },
         {
           header: "Naval Group FDI HN",
@@ -74,6 +74,21 @@ export default {
           tags: [{ type: "Frigate" }],
         },
         {
+          header: "Standar Batch III 'Elli'",
+          characteristics: [
+            { type: "Length", value: "130m" },
+            { type: "Displacement", value: "3,800 tons" },
+            { type: "Speed", value: "30 knots" },
+            {
+              type: "Armament",
+              value:
+                "2x OTO-Melara Compatto 76mm, 2x Mk 15 Phalanx CIWS, 4x Mk 141 Harpoon blk 2, Mk 25 w/ 8x Sea Sparrow, 2x Mk 32 SVTT",
+            },
+          ],
+          imageUrl: "standard-batch-iii.jpg",
+          tags: [{ type: "Frigate" }, { type: "Pending replacement" }],
+        },
+        {
           header: "Naval Group Gowind 2500HN",
           characteristics: [
             { type: "Length", value: "85m" },
@@ -87,36 +102,6 @@ export default {
           ],
           imageUrl: "gowind.jpg",
           tags: [{ type: "Corvette" }, { type: "TBA" }],
-        },
-        {
-          header: "Lockheed Martin MMSC 'HF2'",
-          characteristics: [
-            { type: "Length", value: "118m" },
-            { type: "Displacement", value: "3,600 tons" },
-            { type: "Speed", value: "47 knots" },
-            {
-              type: "Armament",
-              value:
-                "Mk 110 57mm, SeaRAM CIWS, 8x Mk 141 Harpoon blk 2, 1x Mk 41 VLS, 2x M621 20mm, 2x Mk 32 SVTT",
-            },
-          ],
-          imageUrl: "hf2.jpg",
-          tags: [{ type: "Frigate" }, { type: "TBA" }],
-        },
-        {
-          header: "Standar Batch III 'Elli'",
-          characteristics: [
-            { type: "Length", value: "130m" },
-            { type: "Displacement", value: "3,800 tons" },
-            { type: "Speed", value: "30 knots" },
-            {
-              type: "Armament",
-              value:
-                "2x OTO-Melara Compatto 76mm, 2x Mk 15 Phalanx CIWS, 4x Mk 141 Harpoon blk 2, Mk 25 w/ 8x Sea Sparrow, 2x Mk 32 SVTT",
-            },
-          ],
-          imageUrl: "standard-batch-iii.jpg",
-          tags: [{ type: "Frigate" }],
         },
         {
           header: "Roussen class 'Super Vita'",
@@ -219,6 +204,20 @@ export default {
             },
           ],
           imageUrl: "type-214.jpg",
+          tags: [{ type: "General Purpose Submarine" }],
+        },
+        {
+          header: "Type 209 1200AIP 'Poseidon'",
+          characteristics: [
+            { type: "Length", value: "64m" },
+            { type: "Displacement", value: "1,810 tons" },
+            { type: "Speed", value: "22 knots" },
+            {
+              type: "Armament",
+              value: "8x 533mm torpedos",
+            },
+          ],
+          imageUrl: "type-209.jpg",
           tags: [{ type: "General Purpose Submarine" }],
         },
         {
