@@ -3,7 +3,7 @@
     <h1>HN Fleet</h1>
     <p class="lead">
       frigates, corvettes, guided missle attack craft, gunboats, minehunters,
-      minesweepers, landing craft, support vessels, UAVs, Anti-submarine vessels
+      minesweepers, landing craft, support vessels, UAVs, anti-submarine vessels
       and submarines
     </p>
     <hr />
