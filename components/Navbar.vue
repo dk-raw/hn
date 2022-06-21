@@ -26,6 +26,27 @@
           <li class="nav-item">
             <NuxtLink to="/fleet" class="nav-link">Fleet</NuxtLink>
           </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              data-bs-toggle="dropdown"
+            >
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <NuxtLink to="/projects/hydra-mlu" class="dropdown-item"
+                  >Hydra-class MLU</NuxtLink
+                >
+              </li>
+              <li>
+                <NuxtLink to="/projects/corvette" class="dropdown-item"
+                  >Corvette</NuxtLink
+                >
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
