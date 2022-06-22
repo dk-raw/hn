@@ -49,11 +49,6 @@ export default {
               value:
                 '5" Mk 45, 2x Mk 15 Phalanx CIWS, 2x Mk 141 Harpoon, 2x Mk 48 VLS, 2x Mk 32 SVTT',
             },
-            {
-              type: "Sensors",
-              value:
-                '5" Mk 45, 2x Mk 15 Phalanx CIWS, 2x Mk 141 Harpoon, 2x Mk 48 VLS, 2x Mk 32 SVTT',
-            },
           ],
           imageUrl: "meko-200.jpg",
           tags: [{ type: "Frigate" }, { type: "Pending MLU" }],
@@ -87,21 +82,6 @@ export default {
           ],
           imageUrl: "standard-batch-iii.jpg",
           tags: [{ type: "Frigate" }, { type: "Pending replacement" }],
-        },
-        {
-          header: "Naval Group Gowind 2500HN",
-          characteristics: [
-            { type: "Length", value: "85m" },
-            { type: "Displacement", value: "2,500 tons" },
-            { type: "Speed", value: "28 knots" },
-            {
-              type: "Armament",
-              value:
-                "Oto Melara 76mm Super Rapid, 8x Exocet MM40 blk 3, 16x Sylver A50 VLS, 2x EuroTorp MU90, 2x Narwhal 20mm RWS",
-            },
-          ],
-          imageUrl: "gowind.jpg",
-          tags: [{ type: "Corvette" }, { type: "TBA" }],
         },
         {
           header: "Roussen class 'Super Vita'",
