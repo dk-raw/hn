@@ -72,8 +72,8 @@
     <h4>French proposal</h4>
     <p>
       We don't know much about the French proposal since there has not been any
-      official press releases. Despite that, it's certain that this proposal will
-      include at least:
+      official press releases. Despite that, it's certain that this proposal
+      will include at least:
     </p>
     <ul>
       <li>8 Phalanx BLK 1B Baseline 2 upgrade kits</li>
