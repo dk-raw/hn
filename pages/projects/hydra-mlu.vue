@@ -21,7 +21,7 @@
       of 4 ships.
     </p>
     <h4>US proposal</h4>
-    <p>
+    <p class="mb-0">
       On December 10 2021, the State Department officially made a proposal for
       the modernization of 4 Hydra-class frigates. This proposal includes:
     </p>
@@ -70,7 +70,7 @@
       and BAE Systems.
     </p>
     <h4>French proposal</h4>
-    <p>
+    <p class="mb-0">
       We don't know much about the French proposal since there has not been any
       official press releases. Despite that, it's certain that this proposal
       will include at least:
@@ -93,11 +93,11 @@
     <p>
       Although the price is unknown at the time, we can assume that it will be
       less that $2.5 billion, since it offers less than the US proposal. If the
-      Hellenic Navy chooses the French one, there will be a further discount
-      because it will part of a larger contract including 4 FDI-HN frigates and
-      possibly 4-6 Gowind 2500HN corvettes. With all that said, this
-      modernization proposition is still solid again offering an AESA radar,
-      CAPTAS-2 Sonar, ECM and RWS.
+      Hellenic Navy chooses it, there will be a further discount because it will
+      part of a larger contract including 4 FDI-HN frigates and possibly 4-6
+      Gowind 2500HN corvettes. With all that said, this modernization
+      proposition is still solid, again offering an AESA radar, CAPTAS-2 Sonar,
+      ECM and RWS.
     </p>
   </div>
 </template>

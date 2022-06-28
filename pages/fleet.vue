@@ -34,7 +34,7 @@
 
 <script>
 export default {
-  name: "Fleet",
+  name: "fleet",
   data() {
     return {
       fleet: [
